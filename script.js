@@ -83,6 +83,8 @@ function createCanvas() {
 
 // Clear Canvas
 clearCanvasBtn.addEventListener('click', () => {
+  bucketColor = '#FFFFFF';
+  bucketColorBtn.value = 'FFFFFF';
   createCanvas();
   drawnArray = [];
   // Active Tool
